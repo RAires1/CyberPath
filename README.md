@@ -1,55 +1,53 @@
 # CyberPath
 
-This repository documents my journey into cybersecurity,
-including hands-on labs, homelab projects, security training
-and practical exercises.
+This repository documents my move into cybersecurity through hands-on labs, homelab projects and practical security work.
+
+I use the lab to build experience with systems, networking, monitoring and incident analysis instead of only studying the theory.
 
 ## Current Focus
 
 - Blue Team / Security Operations
-- Incident Response
-- Networking
-- Linux
+- SIEM monitoring and event analysis
+- Windows Server and Active Directory
+- Networking and DNS
+- Linux administration
 - Virtualization
-- Security monitoring
+- Incident response and packet analysis
 
-## Projects
+## Homelab
 
-### Proxmox Homelab
+My main project is a Proxmox-based lab where I can build and troubleshoot a small enterprise-style environment.
 
-My personal Proxmox environment used to develop practical
-experience with virtualization, networking, Linux services
-and system administration.
+Current components include:
 
-Current services include:
+- Proxmox VE virtualization
+- OPNsense firewall/router
+- Windows Server with Active Directory
+- `aireslab.test` lab domain
+- Windows 11 domain-joined workstation
+- Ubuntu Server
+- Wazuh SIEM with Windows and Linux agents
+- AdGuard Home
+- Home Assistant OS
 
-- Home Assistant OS VM
-- AdGuard Home LXC
-- Dedicated VM, ISO and backup storage
-
-Previous lab configurations have also included:
-
-- pfSense
-- Pi-hole
+I use the environment to practise domain administration, DNS, authentication, routing, endpoint monitoring, log collection and security-event investigation.
 
 [View the Proxmox Homelab documentation](./Proxmox-Homelab/)
 
-## Training
+## Security Training
 
 - Google Cybersecurity Professional Certificate
-- CompTIA Security+ — In Progress
-- TryHackMe — Blue Team and Security Operations labs
+- CompTIA Security+ - In Progress
+- TryHackMe - 70+ rooms completed, Top 5%
+- Blue Team and Security Operations labs
+- Microsoft Sentinel hands-on lab work
+- Phishing and packet-analysis exercises
 
-## Roadmap
+## Current Goals
 
-My next goal is to expand the homelab into an enterprise-style
-cybersecurity environment including:
+I am continuing to develop the lab with more realistic security scenarios, stronger network segmentation, endpoint telemetry and incident-response exercises.
 
-- Windows Server
-- Active Directory
-- Windows clients
-- Sysmon
-- Centralized logging
-- Wazuh SIEM
-- Incident response exercises
-- Network segmentation
+## Connect
+
+- [LinkedIn](https://www.linkedin.com/in/ricardo-da-cunha-aires-393255221/)
+- [GitHub](https://github.com/RAires1)
