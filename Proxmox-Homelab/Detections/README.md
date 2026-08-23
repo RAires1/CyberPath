@@ -9,6 +9,7 @@ Each write-up follows the same format: what I did, what Wazuh detected, how I in
 | Date | Title | Technique / Area | Status |
 |---|---|---|---|
 | 2026-08 | [Windows Failed Logon Detection](./2026-08-windows-failed-logon.md) | Authentication / Credential Access | Documented |
+| 2026-08 | [PowerShell "Invoke-Command" Alert – False Positive Triage](./2026-08-powershell-false-positive-triage.md) | PowerShell / Lateral Movement (triage) | Documented |
 
 More entries will be added as I run additional scenarios (RDP brute-force simulation, Sysmon-based process telemetry, Linux authentication abuse, multi-stage attack chain).
 
