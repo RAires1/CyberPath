@@ -49,11 +49,6 @@ Beyond building the infrastructure, I document specific security events I've gen
 - Microsoft Sentinel hands-on lab work
 - Phishing and packet-analysis exercises
 
-<!-- TODO: link specific TryHackMe room write-ups here once written, e.g.
-- [TryHackMe Profile](https://tryhackme.com/p/YOUR-USERNAME)
-- [Room Name - short description](link-to-writeup)
--->
-
 ## Roadmap
 
 - **Sep 2026:** Deploy Sysmon on Windows endpoints for richer process/network telemetry; tune Wazuh rules against it.
