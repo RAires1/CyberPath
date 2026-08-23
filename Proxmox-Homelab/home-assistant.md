@@ -907,68 +907,31 @@ This will allow me to maintain real home services while also building a dedicate
 
 ## Home Assistant VM in Proxmox
 
-A sanitized screenshot of the Home Assistant VM running in Proxmox can be added here.
+The Home Assistant OS VM running in Proxmox, showing status, resource usage and network activity. IP addresses have been redacted before publishing.
 
-Suggested file:
-
-```text
-screenshots/homeassistant-proxmox.png
-```
-
-Markdown:
-
-```markdown
 ![Home Assistant OS VM running in Proxmox](screenshots/homeassistant-proxmox.png)
-```
 
-The screenshot can demonstrate:
+## Home Assistant Dashboard
 
-- VM 101
-- HomeAssistant VM name
-- VM status
-- CPU usage
-- Memory usage
-- Boot-disk allocation
-- Network activity
-- Proxmox monitoring
+The live Home Assistant dashboard, showing the areas and devices currently under automation.
 
-Before uploading screenshots, I remove or hide sensitive information such as IP addresses and administrative details.
+![Home Assistant dashboard overview](screenshots/homeassistant-dashboard.png)
 
 ---
 
 ## Voice Hardware
 
-A photo of the ReSpeaker microphone array can also be included.
+The ReSpeaker XVF3800 microphone array used for voice control with Home Assistant.
 
-Suggested file:
-
-```text
-screenshots/respeaker-xvf3800.jpg
-```
-
-Markdown:
-
-```markdown
 ![ReSpeaker XVF3800 microphone array used with Home Assistant](screenshots/respeaker-xvf3800.jpg)
-```
 
 ---
 
 ## Office Lighting
 
-A sanitized photo of the office lighting setup could also demonstrate the physical result of the automation.
+The office lighting group in Home Assistant, showing the individually controlled lights and rope-light segments managed through voice and automation.
 
-Suggested file:
-
-```text
-screenshots/office-lighting.jpg
-```
-
-Markdown:
-
-```markdown
-![Voice-controlled office lighting managed through Home Assistant](screenshots/office-lighting.jpg)
-```
+![Voice-controlled office lighting managed through Home Assistant](screenshots/office-lighting.png)
 
 ---
 

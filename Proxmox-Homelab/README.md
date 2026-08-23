@@ -4,6 +4,8 @@ This section documents the systems I run in my Proxmox environment and the pract
 
 The lab started with services such as Home Assistant and AdGuard Home, then grew into a small enterprise-style environment where I can practise networking, Windows administration, Linux, Active Directory and security monitoring.
 
+![Proxmox VE datacenter overview](./screenshots/proxmox-dashboard.png)
+
 ## Current Lab
 
 ```text
@@ -49,6 +51,7 @@ I do not publish real internal addressing, credentials or other sensitive config
 - [Windows 11 Domain Client](./windows-11-client.md)
 - [Ubuntu Server Endpoint](./ubuntu-server.md)
 - [Wazuh SIEM & Endpoint Monitoring](./wazuh-siem.md)
+- [Detections & Investigations](./Detections/) - specific security events I generated and investigated, not just infrastructure
 
 ### Services
 

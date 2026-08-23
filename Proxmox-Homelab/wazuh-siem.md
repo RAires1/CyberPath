@@ -107,6 +107,8 @@ SIEM investigation
 
 This gave me a simple but real end-to-end example of how endpoint activity becomes a security alert.
 
+Full write-up with the alert detail and analysis: [Windows Failed Logon Detection](./Detections/2026-08-windows-failed-logon.md)
+
 ---
 
 ## Validation and Troubleshooting

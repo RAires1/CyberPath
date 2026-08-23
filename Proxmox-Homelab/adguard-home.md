@@ -617,49 +617,25 @@ Any security testing or attack simulation will be performed only inside my own c
 
 ## AdGuard Home in Proxmox
 
-A sanitized screenshot of the Proxmox environment can be included here to demonstrate the running AdGuard LXC container.
+The AdGuard Home LXC container running in Proxmox, showing status, resource usage and network activity. IP addresses have been redacted before publishing.
 
-```text
-screenshots/adguard-proxmox.png
-```
-
-Markdown:
-
-```markdown
 ![AdGuard Home LXC running in Proxmox](screenshots/adguard-proxmox.png)
-```
 
 ---
 
 ## AdGuard Home Dashboard
 
-A sanitized screenshot of the AdGuard Home dashboard can be added to show DNS activity and filtering statistics.
+The AdGuard Home dashboard, showing DNS query volume, filtering statistics and top queried/blocked domains for the last 24 hours. The "Top clients" panel has been redacted since it shows internal client IPs and a hostname.
 
-```text
-screenshots/adguard-dashboard.png
-```
-
-Markdown:
-
-```markdown
 ![AdGuard Home Dashboard](screenshots/adguard-dashboard.png)
-```
 
 ---
 
 ## DNS Query Log
 
-A sanitized query-log screenshot can demonstrate how I use AdGuard Home to investigate DNS activity and troubleshoot blocked services.
+The DNS query log, showing how I use AdGuard Home to investigate DNS activity and troubleshoot blocked services. Client IP addresses have been redacted.
 
-```text
-screenshots/adguard-query-log.png
-```
-
-Markdown:
-
-```markdown
 ![AdGuard Home DNS Query Log](screenshots/adguard-query-log.png)
-```
 
 Before publishing screenshots, I remove or hide:
 
