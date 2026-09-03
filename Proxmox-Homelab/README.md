@@ -51,12 +51,16 @@ I do not publish real internal addressing, credentials or other sensitive config
 - [Windows 11 Domain Client](./windows-11-client.md)
 - [Ubuntu Server Endpoint](./ubuntu-server.md)
 - [Wazuh SIEM & Endpoint Monitoring](./wazuh-siem.md)
-- [Detections & Investigations](./Detections/) - specific security events I generated and investigated, not just infrastructure
+- [Detections & Investigations](./Detections/): specific security events I generated and investigated, not just infrastructure
 
 ### Services
 
 - [AdGuard Home - DNS Filtering](./adguard-home.md)
 - [Home Assistant OS - Smart Home & Voice Automation](./home-assistant.md)
+
+### Troubleshooting
+
+- [Wazuh Manager Startup Timeout](./wazuh-startup-timeout.md): the SIEM stopped running on 25 August and nothing told me for nine days
 
 ## What I Use the Lab For
 
