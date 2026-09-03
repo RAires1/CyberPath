@@ -1,4 +1,4 @@
-# Ubuntu Server – Linux Endpoint in My Proxmox Homelab
+# Ubuntu Server: Linux Endpoint in My Proxmox Homelab
 
 ## Overview
 
