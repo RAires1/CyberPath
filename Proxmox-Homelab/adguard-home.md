@@ -1,4 +1,4 @@
-# AdGuard Home – DNS Filtering in My Proxmox Homelab
+# AdGuard Home: DNS Filtering in My Proxmox Homelab
 
 ## Overview
 
