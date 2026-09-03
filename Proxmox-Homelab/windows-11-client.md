@@ -1,4 +1,4 @@
-# Windows 11 – Domain-Joined Workstation in My Proxmox Homelab
+# Windows 11: Domain-Joined Workstation in My Proxmox Homelab
 
 ## Overview
 
