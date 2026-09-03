@@ -1,9 +1,9 @@
-# [Title] – [One-line summary]
+# [Title]: [One-line summary]
 
 **Date:** YYYY-MM
 **Environment:** aireslab.test (Proxmox homelab)
 **Technique / Area:** e.g. Credential Access, Persistence, Network Reconnaissance
-**MITRE ATT&CK:** e.g. T1110 – Brute Force (only include if it genuinely applies)
+**MITRE ATT&CK:** e.g. T1110: Brute Force (only include if it genuinely applies)
 
 ## Scenario
 
