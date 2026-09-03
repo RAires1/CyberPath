@@ -1,4 +1,4 @@
-# Wazuh SIEM – Windows & Linux Monitoring in My Proxmox Homelab
+# Wazuh SIEM: Windows and Linux Monitoring in My Proxmox Homelab
 
 ## Overview
 
@@ -127,6 +127,8 @@ When events did not appear immediately, I checked:
 - Whether the test action generated the type of event I expected
 
 This helped me understand the difference between an agent being connected and the SIEM actually receiving useful security telemetry.
+
+A longer example of the same lesson, where the manager itself had failed to start and the environment only looked healthy: [Wazuh Manager Startup Timeout](./wazuh-startup-timeout.md).
 
 ---
 
