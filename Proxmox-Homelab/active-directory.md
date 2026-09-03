@@ -1,4 +1,4 @@
-# Windows Server & Active Directory – Domain Services in My Proxmox Homelab
+# Windows Server & Active Directory: Domain Services in My Proxmox Homelab
 
 ## Overview
 
