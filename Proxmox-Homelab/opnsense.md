@@ -1,4 +1,4 @@
-# OPNsense – Firewall & Lab Networking in My Proxmox Homelab
+# OPNsense: Firewall & Lab Networking in My Proxmox Homelab
 
 ## Overview
 
