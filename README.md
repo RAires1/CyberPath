@@ -36,27 +36,27 @@ I use the environment to practise domain administration, DNS, authentication, ro
 
 ## Detections & Investigations
 
-Beyond building the infrastructure, I document specific security events I've generated and investigated in the lab - what I did, what Wazuh detected, and how I analyzed it.
+Beyond building the infrastructure, I document specific security events I have generated and investigated in the lab: what I did, what Wazuh detected, and how I investigated it.
 
 [View detection write-ups](./Proxmox-Homelab/Detections/)
 
 ## Security Training
 
-- Google Cybersecurity Professional Certificate
-- CompTIA Security+ - In Progress
-- TryHackMe - 90 rooms completed, Top 3%
+- Google Cybersecurity Professional Certificate (completed May 2024)
+- CompTIA Security+ (in progress)
+- TryHackMe: 90 rooms completed, Top 3%
 - Blue Team and Security Operations labs
-- Microsoft Sentinel hands-on lab work
+- Microsoft Sentinel exercises in the TryHackMe SOC Simulator
 - Phishing and packet-analysis exercises
 
 ## Roadmap
 
-- **Sep 2026:** Deploy Sysmon on Windows endpoints for richer process/network telemetry; tune Wazuh rules against it.
+- **Sep 2026:** Deploy Sysmon on Windows endpoints for richer process and network telemetry, and tune Wazuh rules against it. Also add service-health monitoring, so I know when the Wazuh manager stops running instead of finding out days later.
 - **Oct 2026:** Simulate an RDP brute-force attack, write a custom Wazuh detection rule, and document it as a full investigation.
 - **Nov 2026:** Add file-integrity monitoring and a Linux authentication-abuse scenario.
 - **Dec 2026:** Simulate a multi-stage attack chain across two endpoints and write a full incident-response report.
 
-*(Dates are targets, not commitments - updated as the lab progresses.)*
+*(Dates are targets, not commitments. They get updated as the lab progresses.)*
 
 ## Connect
 
