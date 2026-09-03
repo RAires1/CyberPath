@@ -1,4 +1,4 @@
-# Home Assistant OS – Smart Home & Voice Automation in My Proxmox Homelab
+# Home Assistant OS: Smart Home & Voice Automation in My Proxmox Homelab
 
 ## Overview
 
