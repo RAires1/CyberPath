@@ -44,7 +44,7 @@ Beyond building the infrastructure, I document specific security events I've gen
 
 - Google Cybersecurity Professional Certificate
 - CompTIA Security+ - In Progress
-- TryHackMe - 70+ rooms completed, Top 5%
+- TryHackMe - 90 rooms completed, Top 3%
 - Blue Team and Security Operations labs
 - Microsoft Sentinel hands-on lab work
 - Phishing and packet-analysis exercises
