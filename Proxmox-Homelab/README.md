@@ -61,6 +61,7 @@ I do not publish real internal addressing, credentials or other sensitive config
 ### Troubleshooting
 
 - [Wazuh Manager Startup Timeout](./wazuh-startup-timeout.md): the SIEM stopped running on 25 August and nothing told me for nine days
+- [Windows 11 VM Lag and RDP Through OPNsense](./win11-lag-and-rdp.md): a slow VM, a metric that was not measuring what I thought, and one controlled way into a segmented lab
 
 ## What I Use the Lab For
 
