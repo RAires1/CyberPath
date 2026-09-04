@@ -21,8 +21,8 @@ I do not publish credentials or sensitive configuration. Host addresses below ar
 | Guest | Windows 11, domain-joined to aireslab.test |
 | Guest RAM before | 6 GB |
 | Lab network | 10.10.10.0/24 behind OPNsense |
-| Home network | 192.168.1.0/24 behind an Orange Livebox |
-| Uplink | Server, Ethernet, Wi-Fi extender, Livebox |
+| Home network | 192.168.1.0/24 behind the ISP router |
+| Uplink | Server, Ethernet, Wi-Fi extender, ISP router |
 
 ## Part One: The Lag
 
@@ -73,13 +73,13 @@ Since the console was half the problem, the answer was to stop using it. The Win
 
 ### The Option I Could Not Use
 
-The clean way is a static route on the home router sending 10.10.10.0/24 to the OPNsense WAN address. The Orange Livebox only exposes static routing in its Pro configuration, and on the residential firmware the option does not exist.
+The clean way is a static route on the home router sending 10.10.10.0/24 to the OPNsense WAN address. My ISP router does not expose static routing at all on its residential firmware.
 
 So destination NAT on OPNsense instead, which needs nothing from the ISP router.
 
 ### Checking Where OPNsense Actually Sat
 
-The server reaches the Livebox through a Wi-Fi extender acting as a wireless bridge, and I wanted to be sure the extender was not adding a second layer of NAT. From the OPNsense shell:
+The server reaches the ISP router through a Wi-Fi extender acting as a wireless bridge, and I wanted to be sure the extender was not adding a second layer of NAT. From the OPNsense shell:
 
 ```sh
 ifconfig | grep "inet "
