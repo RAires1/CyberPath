@@ -133,9 +133,13 @@ The VM went from unusable to feeling like a normal desktop. Windows sits at abou
 
 ## What I Got Wrong
 
-**I diagnosed from a number that was not measuring what I thought.** The 101% on the VM summary page looked like the guest running out of memory. It was not. Proxmox reads guest memory usage from the balloon device. With no balloon device attached there is nothing for it to read, so it falls back to reporting how much memory was assigned, and the figure sits at the ceiling permanently no matter what Windows is doing. I can see that plainly now: Task Manager reports 3.2 GB in use, 27% of the total, while the same Proxmox page reports 12 of 12.
+**I diagnosed from a number that was not measuring what I thought.** The 101% on the VM summary page looked like the guest running out of memory. It was not. Proxmox reads guest memory usage from the balloon device. With no balloon device attached there is nothing for it to read, so it falls back to reporting how much memory was assigned, and the figure sits at the ceiling permanently no matter what Windows is doing. I can see that plainly now. Task Manager reports 3.2 GB in use, 27% of the total. The Proxmox summary for the same machine at the same moment reports 100.86%, 12.10 GiB of 12.00 GiB.
 
 ![Task Manager reporting 3.2 GB of 11.9 GB in use](./screenshots/win11-taskmgr-memory-after.png)
+
+![The Proxmox VM summary reporting 100.86% memory use on the same machine](./screenshots/proxmox-vm-summary-memory.png)
+
+The giveaway is one line further down the same panel. Host memory usage reads 12.10 GiB, the identical figure. Proxmox is showing what the QEMU process costs on the host, not what Windows is doing inside it, and because that process costs slightly more than the memory it hands to the guest, the percentage creeps past 100.
 
 I checked both ends afterwards. The balloon device was not enabled on the VM, and the VirtIO balloon driver was never installed inside Windows either, so there were two separate reasons the hypervisor could not see what the guest was doing. Neither of them changed when I resized the VM, which is why the same misleading number is still on screen today.
 
