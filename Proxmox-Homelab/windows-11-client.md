@@ -178,6 +178,8 @@ I plan to expand the workstation with:
 
 `WIN11-01` is currently joined to `aireslab.test` and connected to my Wazuh monitoring environment.
 
+How I fixed the lag on this VM and got RDP to it from my home network: [Windows 11 VM Lag and RDP Through OPNsense](./win11-lag-and-rdp.md).
+
 ---
 
 ## Skills Demonstrated
